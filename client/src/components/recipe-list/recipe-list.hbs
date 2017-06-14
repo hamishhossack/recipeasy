@@ -1,0 +1,25 @@
+{{#if recipes}}
+  <section class="recipe-list row">
+    <div class="gallery">
+      {{#each recipes}}
+        <div class="gallery-cell" data-id="{{id}}">
+          <p>
+            {{name}}
+          </p>
+          <p>
+            {{json ingredients}}
+          </p>
+          <p>
+            favourite: {{favourite}}
+          </p>
+        </div>
+      {{/each}}
+    </div>
+  </section>
+{{else}}
+  {{#if query}}
+    <p>
+      Sorry, nothing matched your filter term
+    </p>
+  {{/if}}
+{{/if}}

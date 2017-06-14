@@ -1,0 +1,29 @@
+search {
+  text-align: center;
+
+  .search-wrapper > * {
+    display: inline-block;
+  }
+
+  i.fa {
+    width: 5%;
+    color: color(pearl);
+    font-size: 3em;
+  }
+
+  input[type="text"] {
+    width: 90%;
+    background: transparent;
+    color: color(pearl);
+    border: none;
+    border-bottom: 1px solid color(pearl);
+    font: font(large);
+
+    &::placeholder {
+      color: color(pearl);
+    }
+    &:focus {
+      outline: none;
+    }
+  }
+}

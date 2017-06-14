@@ -1,0 +1,22 @@
+main {
+  min-width: 100%;
+  min-height: 100%;
+  background: color(darkgrey);
+
+  .logo img {
+    margin: .5em;
+    height: 3em;
+  }
+
+  search {
+    height: 10%;
+  }
+
+  recipe-selected {
+    height: 40%;
+  }
+
+  recipe-list {
+    height: 50%;
+  }
+}
