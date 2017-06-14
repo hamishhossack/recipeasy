@@ -1,0 +1,38 @@
+{
+  "rules": {
+    "indent": [
+      "error",
+      2
+    ],
+    "import/no-dynamic-require": 0,
+    "space-before-function-paren": [
+      2,
+      {
+        "anonymous": "always",
+        "named": "never"
+      }
+    ],
+    "no-use-before-define": [
+      2,
+      "nofunc"
+    ],
+    "no-multi-spaces": [
+      "error",
+      {
+        "ignoreEOLComments": true
+      }
+    ],
+    // TODO: turn on later
+    "comma-dangle": [
+      0
+    ]
+  },
+  "env": {
+    "node": true,
+    "mocha": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "airbnb/base"
+  ]
+}
