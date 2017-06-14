@@ -6,10 +6,10 @@ import {
 import app from '../../index';
 
 describe('## Misc', () => {
-  describe('# GET /api/health-check', () => {
+  describe('# GET /api/healthz', () => {
     it('should return OK', (done) => {
       request(app)
-        .get('/api/health-check')
+        .get('/api/healthz')
         .expect(httpStatus.OK)
         .then((res) => {
           expect(res.text).to.equal('OK');

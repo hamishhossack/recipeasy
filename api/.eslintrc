@@ -22,7 +22,7 @@
         "ignoreEOLComments": true
       }
     ],
-    // TODO: turn on later
+    // TODO: turn on laters
     "comma-dangle": [
       0
     ]
