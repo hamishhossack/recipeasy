@@ -18,8 +18,8 @@ What you'll need to run the development environment;
 
 Each project has a small readme outlining commands, runners & extra information. See inside for further details.
 
-- [API README](https://github.com/hamishhossack/recipeasy/api)
-- [CLIENT README](https://github.com/hamishhossack/recipeasy/client)
+- [API README](https://github.com/hamishhossack/recipeasy/tree/master/api)
+- [CLIENT README](https://github.com/hamishhossack/recipeasy/tree/master/client)
 
 ## Assumptions
 - Ingredients are tightly coupled with recipes
