@@ -30,26 +30,6 @@ Each project has a small readme outlining commands, runners & extra information.
 
 ## Getting Started
 
-# Development Grade
-
-Run the individual applications separately see the relevant readme's to start all three key services; api, client, db.
-
-# Production Grade
-
-Clone the repo:
-```sh
-git clone git@github.com:hamishhossack/recipeasy.git
-cd recipeasy
-```
-
-**MUST DO**
-Build the client app for production, see the [client readme](https://github.com/hamishhossack/recipeasy/client)
-
-Start server in Docker with compose (for simplicity):
-```sh
-docker-compose up
-```
-
-> NOTE: Potential need to change the IP address to match your mongo instance (Docker or other), please change in api/server/config/env/{development,production,test}.js
+Run the individual applications run independently see the relevant readme's to start all three key services; api, client, db-seed.
 
 ## Further Development (see each project README.md)

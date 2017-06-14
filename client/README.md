@@ -1,5 +1,9 @@
 # Recipeasy UI
 
+---------------------------------------
+**_!! This project is incomplete !!_**
+---------------------------------------
+
 ## Get Started
  ```sh
  yarn add webpack -g
