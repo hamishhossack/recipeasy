@@ -26,6 +26,7 @@ Each project has a small readme outlining commands, runners & extra information.
 - The api is not looking to be extended further by filters
 - The user is always singular "Joe", this is not a network of users
 - Favourites (stars) are tightly coupled to recipes, due to the nature of the "singular user" dataset
+- No client framework should be used to show a core understanding of Javascript
 
 ## Getting Started
 

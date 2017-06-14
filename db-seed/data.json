@@ -8,7 +8,7 @@
   {
     "name": "Beef Stroganoff",
     "cookTime": 30,
-    "Chicken Caesar Salad": ["beef", "mustard", "mushrooms"],
+    "ingredients": ["beef", "mustard", "mushrooms"],
     "favourite": false
   },
   {

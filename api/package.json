@@ -77,11 +77,6 @@
     "supertest-as-promised": "^4.0.2"
   },
   "license": "MIT",
-  "config": {
-    "ghooks": {
-      "pre-commit": "npm run lint && npm test"
-    }
-  },
   "babel": {
     "presets": [
       "es2015",
