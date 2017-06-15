@@ -1,5 +1,8 @@
 # Recipeasy Api
 
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/9b94b44147161f869b37)
+Here is a small showcase of available requests 
+
 ## Get Started
  ```sh
  yarn add gulp -g
