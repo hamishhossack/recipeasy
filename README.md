@@ -3,10 +3,15 @@
 This project is split into 4 separate sections; api, client & db-seed. (see below). I would imagine that actually these projects are independent of each other and would otherwise live in isolated repos. But for this exercise I intend to bundle them together.
 
 -- recipeasy
-  |_ api # Here we have a self sufficient api layer serving data as json
-  |_ breif # Project feature specification/requirements
-  |_ client # This houses the client UI
-  |_ db-seed # data to be imported into mongo instance
+
+   |_ api # Here we have a self sufficient api layer serving data as json
+  
+   |_ breif # Project feature specification/requirements
+  
+   |_ client # This houses the client UI
+  
+   |_ db-seed # data to be imported into mongo instance
+  
 
 What you'll need to run the development environment;
 - Mongo Instance (with seed data)
@@ -32,4 +37,8 @@ Each project has a small readme outlining commands, runners & extra information.
 
 Run the individual applications run independently see the relevant readme's to start all three key services; api, client, db-seed.
 
-## Further Development (see each project README.md)
+## Further Development
+
+(see each project README.md)
+
+
